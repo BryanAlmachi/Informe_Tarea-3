@@ -279,37 +279,144 @@
    Punto A
    
    ![image](https://user-images.githubusercontent.com/105255508/171843599-7addc6d6-e2cd-48bb-a48e-e07b6d6a93d0.png)
+   
+   V= I x R 
+   
+   IT1=9 V/ 1 kΩ
+   
+   IT1= 9 mA
 
    Punto B
    
    ![image](https://user-images.githubusercontent.com/105255508/171843479-8510e8d7-7eb2-4d65-8f94-a54a1d296ae5.png)
+   
+   V= I x R 
+   
+   IT1=9 V/ 56 kΩ
+   
+   IT1= 0.16x10^-3 
+   
+   IT1= 0.16 mA
 
    Punto C
    
    ![image](https://user-images.githubusercontent.com/105255508/171843397-55d7e66e-8b68-4887-9b21-70c9e4703ef6.png)
    
+   RT= R1 + R2 + R3 + R4 + R5
+   
+   RT= 1.0 kΩ + 33 kΩ + 68 kΩ + 27 kΩ +22 kΩ
+   
+   RT= 151 kΩ
+   
+   V= I x R 
+   
+   IT2=9 V/151 kΩ
+   
+   IT2= 60x10^-6 
+   
+   IT2= 60 µA
+   
    Punto A-B
    
    ![image](https://user-images.githubusercontent.com/105255508/171843755-3b0a4916-8a80-4e53-93fa-7218c0edaa7c.png)
    
+   RT= R1 + R5
+   
+   RT= 1.0 kΩ + 22 kΩ
+   
+   RT= 23 kΩ
+   
+   V= I x R 
+   
+   IT1=9 V/23 kΩ
+   
+   IT1= 0.39x10^-3 
+   
+   IT1= 0.39 mA
+   
    Punto A-C
    
    ![image](https://user-images.githubusercontent.com/105255508/171843847-235e6b47-1a81-4841-a9fb-dc3e81e646f7.png)
+   
+   RT= R1 + R4 + R5
+   
+   RT= 1.0 kΩ + 27 kΩ + 22 kΩ
+   
+   RT= 50 kΩ
+   
+   V= I x R 
+   
+   IT1=9 V/50 kΩ
+   
+   IT1= 0.18x10^-3 
+   
+   IT1= 0.18 mA
 
    Punto C-B
    
    ![image](https://user-images.githubusercontent.com/105255508/171845067-ed4535d2-a4ef-4e47-bfe2-45a0474225db.png)
-
+   
+   RT= R1 + R2 + R3 + R5
+   
+   RT= 1.0 kΩ + 33 kΩ + 68 kΩ + 22 kΩ
+   
+   RT= 124 kΩ
+   
+   V= I x R 
+   
+   IT2=9 V/124 kΩ
+   
+   IT2= 70x10^-6 
+   
+   IT2= 70 µA
+   
    Punto C-A
    
    ![image](https://user-images.githubusercontent.com/105255508/171845131-654d0fa1-8e09-4d4e-b430-0c43afd62f2e.png)
 
+   RT= R1 + R2 + R3 
+   
+   RT= 1.0 kΩ + 33 kΩ + 68 kΩ
+   
+   RT= 102 kΩ
+   
+   V= I x R 
+   
+   IT2=9 V/102 kΩ
+   
+   IT2= 80x10^-6 
+   
+   IT2= 80 µA
+   
    Punto B-A
    
    ![image](https://user-images.githubusercontent.com/105255508/171845208-179e03bc-f363-4b75-8e47-6ba77fd62d5e.png)
+   
+   RT= R1 + R2 
+   
+   RT= 1.0 kΩ + 33 kΩ 
+   
+   RT= 34 kΩ
+   
+   V= I x R 
+   
+   IT=9 V/34 kΩ
+   
+   IT1= 0.26x10^-3 
+   
+   IT1= 0.26 mA
 
-  
-
+   Punto B-C
+   
+   ![image](https://user-images.githubusercontent.com/105255508/171845859-bed4fb45-dd19-4f89-bc36-823af4203778.png)
+   
+   V= I x R
+   
+   IT1= 9V/ 83 kΩ
+   
+   IT1= 0.10x10^-3 
+   
+   IT1= 0.10 mA
    
    SECCIÓN 5-5 Fuentes de voltaje en serie
    
