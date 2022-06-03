@@ -1212,19 +1212,17 @@
 
 5. CONCLUCIONES 
 
-   Por tanto, se puede decir que un circuito en serie proporciona solo una trayectoria para el    paso de la corriente entre dos puntos, sin olvidar que en un circuito en serie la corriente    es la misma a través de todos los puntos, y la resistencia total de un circuito en serie es    igual a la suma de todas las resistencias, cada vez que un resistor se agrega a la serie, la    resistencia total aumenta. 
+•	Por tanto, se puede decir que un circuito en serie proporciona solo una trayectoria para el paso de la corriente entre dos puntos, sin olvidar que en un circuito en serie la corriente es la misma a través de todos los puntos, y la resistencia total de un circuito en serie es igual a la suma de todas las resistencias, cada vez que un resistor se agrega a la serie, la resistencia total aumenta. 
 
-   En relación con lo antes expuesto, es importante mencionar que la ley del voltaje de            Kirchhoff es una ley fundamental de circuitos, en donde la suma de las caídas de voltaje es    igual al voltaje de fuente total, la suma algebraica de todos los voltajes localizados en      una trayectoria cerrada única es cero.
+•	En relación con lo antes expuesto, es importante mencionar que la ley del voltaje de Kirchhoff es una ley fundamental de circuitos, en donde la suma de las caídas de voltaje es igual al voltaje de fuente total, la suma algebraica de todos los voltajes localizados en una trayectoria cerrada única es cero
 
-   En virtud de lo estudiado, un circuito en serie actúa como divisor de voltaje, y el voltaje    siempre se mide con respecto a otro punto, en mayor parte de electrónica, se utiliza como      tierra de referencia y esta tiene una potencia de cero voltios, con respecto a todos los        demás puntos del circuito relacionados, la falla más común que se presenta en un circuito en    serie es una abertura.
+•	En virtud de lo estudiado, un circuito en serie actúa como divisor de voltaje, y el voltaje siempre se mide con respecto a otro punto, en mayor parte de electrónica, se utiliza como tierra de referencia y esta tiene una potencia de cero volts, con respecto a todos los demás puntos del circuito relacionados, la falla más común que se presenta en un circuito en serie es una abertura.
 
-   Para resumir, cuando dos o mas resistores se conectan individualmente entre dos puntos          distintos están en paralelo entre sí, es importante decir que rama es la trayectoria para la    corriente y en circuito en paralelo es uno que tiene mas de una rama, el voltaje a través de    cualquier rama de un circuito dispuesto en paralelo es igual al voltaje a través de cada una    de las demás ramas en paralelo.
+•	Para resumir, cuando dos o mas resistores se conectan individualmente entre dos puntos distintos están en paralelo entre sí, es importante decir que rama es la trayectoria para la corriente y en circuito en paralelo es uno que tiene mas de una rama, el voltaje a través de cualquier rama de un circuito dispuesto en paralelo es igual al voltaje a través de cada una de las demás ramas en paralelo.
 
-   Para sintetizar, la ley de voltaje de Kirchhoff es aplicable a corrientes que circulan por      múltiples trayectorias y es la suma de las corrientes que entran en un nodo es igual a la      suma de las corrientes que salen de dicho nodo, es importante decir que la suma algebraica      de todas las corrientes que entran y salen de un nodo es igual a cero.
-   
-   En conclusión, la resistencia total de dos resistores en paralelo es igual al producto de      los dos resistores dividido entre la suma de los dos resistores, y la corriente total          producida por fuentes de corriente en paralelo es igual a la suma algebraica de las fuentes    de corriente individuales y un circuito en paralelo actúa como divisor de corriente.
+•	Para sintetizar, la ley de voltaje de Kirchhoff es aplicable a corrientes que circulan por múltiples trayectorias y es la suma de las corrientes que entran en un nodo es igual a la suma de las corrientes que salen de dicho nodo, es importante decir que la suma algebraica de todas las corrientes que entran y salen de un nodo es igual a cero
 
-   A modo de cierre, es importante decir que la potencia total presente en un circuito en          paralelo se encuentra sumando las potencias de todos los resistores individuales, tal como      en los circuitos en serie, cuando una rama en paralelo se abre, la resistencia total se        incrementa, la corriente total disminuye, con una supuesta rama abierta, se puede medir la      corriente total para localizar la abertura.
+•	En conclusión, la resistencia total de dos resistores en paralelo es igual al producto de los dos resistores dividido entre la suma de los dos resistores, y la corriente total producida por fuentes de corriente en paralelo es igual a la suma algebraica de las fuentes de corriente individuales y un circuito en paralelo actúa como divisor de corriente.
 
 6. BIBLIOGRAFIAS 
 
