@@ -44,24 +44,50 @@
     2. Determine qué resistores de la figura 5-68 están en serie. Demuestre cómo interconectar     las puntas para poner todos los resistores en serie.
     
     ![image](https://user-images.githubusercontent.com/105255508/171762958-1c480a7c-5075-4ee6-8131-bbf5154a056f.png)
+    
+    Resolución 
+    
+    Desde la punta 1 a la 8 las resistencias están en serie 
+
+    Desde la punta 2 a la 3 las resistencias están en serie 
+
+    Desde la punta 4 a la 7 las resistencias están en serie  
+
+    Desde la punta 5 a la 6 las resistencias están en serie 
 
     4. Determine la resistencia nominal presente entre las puntas 2 y 3 del circuito de la         figura 5-68. 
 
 ![image](https://user-images.githubusercontent.com/105255508/171763026-6e10a084-ab0f-4b88-8b2b-fb49a2c0e05e.png)
 
+   Resolución 
+   
+   R12= rojo, negro, negro, oro → R12= 20 Ω  +-5%
+   
+   R8= rojo, gris, negro, oro → R8= 28 Ω  +-5%
+   
+   R6= rojo, rojo, negro, oro → R6= 22 Ω  +-5%
+   
+   RT= R12 + R8 + R6 → RT= 20 Ω + 28 Ω + 22 Ω → RT= 70 Ω 
+   
    SECCIÓN 5-2 Corriente en un circuito en serie   
    
-   6. ¿Cuál es la corriente a través de cada resistor dispuesto en un circuito en serie si el    voltaje total es de 12 V y la resistencia total de 120 Ω?
+   6. ¿Cuál es la corriente a través de cada resistor dispuesto en un circuito en serie si el      voltaje total es de 12 V y la resistencia total de 120 Ω?
 
    Resolucion 
   
    I = V/RT → I= 12 V/120 Ω → I= 0.1 A→ I= 100mA
 
-   8. Muestre cómo conectar una fuente de voltaje y un amperímetro a la tarjeta de circuito      impreso ilustrada en la figura 5-68 para medir la corriente en R1. ¿Qué otras corrientes      de resistor se miden con esta configuración?
+   8. Muestre cómo conectar una fuente de voltaje y un amperímetro a la tarjeta de circuito        impreso ilustrada en la figura 5-68 para medir la corriente en R1. ¿Qué otras corrientes        de resistor se miden con esta configuración?
+
+   ![image](https://user-images.githubusercontent.com/105255508/171806021-8ae093e7-18c0-4ed1-9db5-446d27eed501.png)
+
+   Resolución
+   
+   ![image](https://user-images.githubusercontent.com/105255508/171806081-4bfd614a-543f-4596-ab7b-ac2ee6b579d3.png)
 
    SECCIÓN 5-3 Resistencia total en serie
    
-   10. Se conectan los siguientes resistores (uno de cada uno) en un circuito en serie: 1.0 Ω,    2.2 Ω, 5.6 Ω, 12 Ω, y 22 Ω. Determine la resistencia total.
+   10. Se conectan los siguientes resistores (uno de cada uno) en un circuito en serie: 1.0 Ω,      2.2 Ω, 5.6 Ω, 12 Ω, y 22 Ω. Determine la resistencia total.
 
    Resolución
    
@@ -95,7 +121,7 @@
 
         RT = 17.84 MΩ
 
-   14. Se conectan en serie seis resistores de 56 Ω, ocho de 100 Ω, y dos de 22 Ω. ¿Cuál es la    resistencia total?
+   14. Se conectan en serie seis resistores de 56 Ω, ocho de 100 Ω, y dos de 22 Ω. ¿Cuál es la      resistencia total?
 
    Resolución 
    
@@ -107,7 +133,7 @@
 
    RT= 1180 Ω = 1.180 kΩ
    
-   16. Usted dispone de los siguientes valores de resistor en el laboratorio en cantidades        ilimitadas: 10 Ω, 100 Ω, 470 Ω, 560 Ω, 680 Ω, 1.0 kΩ, 2.2 kΩ, y 5.6 kΩ. No hay existencias    de todos los demás valores estándar. Un proyecto en el que está trabajando requiere emplear    una resistencia de 18 kΩ. ¿Qué combinación de los valores disponibles utilizaría en serie      para lograr la resistencia total?
+   16. Usted dispone de los siguientes valores de resistor en el laboratorio en cantidades          ilimitadas: 10 Ω, 100 Ω, 470 Ω, 560 Ω, 680 Ω, 1.0 kΩ, 2.2 kΩ, y 5.6 kΩ. No hay existencias      de todos los demás valores estándar. Un proyecto en el que está trabajando requiere emplear      una resistencia de 18 kΩ. ¿Qué combinación de los valores disponibles utilizaría en serie        para lograr la resistencia total?
 
    Resolución
 
@@ -132,9 +158,11 @@
    18.En la figura 5-73, ¿cuál es la resistencia total de A a B con cada posición del     
    interruptor?
   
- ![image](https://user-images.githubusercontent.com/105255508/171764099-e7c02881-3764-426d-9106-dc1cba324c01.png)
+   ![image](https://user-images.githubusercontent.com/105255508/171764099-e7c02881-3764-426d-9106-dc1cba324c01.png)
+   
+   Resolución
  
-
+   
 
    SECCIÓN 5-4 Aplicación de la Ley de Ohm
    
@@ -166,11 +194,11 @@
       
       I=V/R → I= 16 V/ 3.76 MΩ → I= 4.26 µA
       
-      R1: V = I*R = 4.25x10^(-3) mA*1000 kΩ = 4.25 V
+      VR1 = I*R = 4.25x10^(-3) mA*1000 kΩ = 4.25 V
       
-      R2: V = I*R = 4.25x10^(-3) mA*2200 kΩ = 9.35 V
+      VR2 = I*R = 4.25x10^(-3) mA*2200 kΩ = 9.35 V
       
-      R3: V = I*R = 4.25x10^(-3) mA*560 kΩ = 2.38 V 
+      VR3 = I*R = 4.25x10^(-3) mA*560 kΩ = 2.38 V 
 
    22.Cuatro resistores de igual valor están en serie con una batería de 5 V y se miden 2.23      mA. ¿Cuál es el valor de cada resistor?
    
@@ -181,7 +209,21 @@
    24.Determine VR1, R2 y R3 en la figura 5-76.
    
    ![image](https://user-images.githubusercontent.com/105255508/171765139-6a9de126-d919-464e-be09-90bcbfd1bef2.png)
-
+   
+   Resolución
+   
+   V= R x I → VR1= (82 Ω)(12.3 mA) → V= 1V
+   
+   VT= VR2 + VR2 + VR3 
+   
+   12V= 1V + VR2 + 2.21 V
+   
+   VR1= 1 V
+   
+   VR2= 8.79 V
+   
+   VR3= 2.21 V
+   
    26.Determine la corriente que el medidor de la figura 5-78 lee en cada posición del            interruptor calibrado.  
   
  ![image](https://user-images.githubusercontent.com/105255508/171765645-34a87f2a-2424-41b6-8e0c-50512e9e3338.png)
@@ -197,7 +239,7 @@ I = v/R = 9 V/151 kΩ = 0.059 mA
   
    SECCIÓN 5-5 Fuentes de voltaje en serie
    
-   28. El término oposición en serie significa que las fuentes están en serie con polaridades    opuestas. Si una batería de 12 V y otra de 3 V están en oposición en serie, ¿cuál es el        voltaje total?
+   28. El término oposición en serie significa que las fuentes están en serie con polaridades      opuestas. Si una batería de 12 V y otra de 3 V están en oposición en serie, ¿cuál es el          voltaje total?
 
    Resolucion 
 
@@ -209,7 +251,7 @@ I = v/R = 9 V/151 kΩ = 0.059 mA
    
    SECCIÓN 5-6 Ley del voltaje de Kirchhoff
 
-   30.Se miden las siguientes caídas de voltaje a través de tres resistores dispuestos en        serie: 5.5 V, 8.2 V, y 12.3 V. ¿Cuál es el valor del voltaje de la fuente al que están        conectados estos resistores?
+   30.Se miden las siguientes caídas de voltaje a través de tres resistores dispuestos en          serie: 5.5 V, 8.2 V, y 12.3 V. ¿Cuál es el valor del voltaje de la fuente al que están           conectados estos resistores?
 
    Resolucion 
 
@@ -219,7 +261,7 @@ I = v/R = 9 V/151 kΩ = 0.059 mA
 
    V = 26 V
 
-   32.Determine la caída o las caídas de voltaje no especificadas en cada circuito de la          figura 5-80. Muestre cómo conectar un voltímetro para medir cada una de las caídas de          voltaje desconocidas.
+   32.Determine la caída o las caídas de voltaje no especificadas en cada circuito de la            figura 5-80. Muestre cómo conectar un voltímetro para medir cada una de las caídas de            voltaje desconocidas.
  
    ![image](https://user-images.githubusercontent.com/105255508/171766372-ec56d7a7-762d-434d-8588-6968d465ad76.png)
 
@@ -233,6 +275,8 @@ I = v/R = 9 V/151 kΩ = 0.059 mA
    
       VT = 88 V     
    34. Encuentre R1, R2 y R3 en la figura 5-82.
+
+   ![image](https://user-images.githubusercontent.com/105255508/171810671-3e674ca4-c2b8-4fbc-8471-63dd0a3ec7d1.png)
  
    Resolucion 
  
@@ -260,22 +304,149 @@ I = v/R = 9 V/151 kΩ = 0.059 mA
     
     R3= V/ I → R3= 1.6 V/ 10Ma → R1= 120 Ω
     
-   36. Con el resultado del problema 35, determine el voltaje a través de cada resistor          mostrado en la figura 5-83 para cada posición del interruptor.
+   36. Con el resultado del problema 35, determine el voltaje a través de cada resistor            mostrado en la figura 5-83 para cada posición del interruptor.
 
    ![image](https://user-images.githubusercontent.com/105255508/171767007-8e6a13f4-ac52-47a8-bf24-76b24ebac7a9.png)
 
-   38. Determine el voltaje entre los puntos A y B en cada divisor de voltaje de la figura 5-    84.
+   38. Determine el voltaje entre los puntos A y B en cada divisor de voltaje de la figura 5-      84.
 
    ![image](https://user-images.githubusercontent.com/105255508/171767095-772f0524-9aad-423f-93d8-dfb79c2c6ebb.png)
 
-   40. Determine los voltajes mínimo y máximo producidos por el divisor de voltaje de la          figura 5-85(b).
+   Resolucion 
+   
+   A 
+   
+   VAB= (VS/RT)xRAB → VAB= (12 V/ 156 Ω)x 56 Ω → VAB= 4.31 V
+   
+   B
+   
+   VAB1= (VS/RT)xRAB → VAB= (8 V/ 6.5 kΩ)x 2.2 kΩ → VAB1= 2.71 V
+   
+   VAB2= (VS/RT)xRAB → VAB= (8 V/ 156 Ω)x 3.3 kΩ → VAB= 4.06 V
+   
+   VABT= VAB1 + VAB2 → VAB= 2.71 V + 4.06 V → VABT= 6.77 V
+      
+   40. Determine los voltajes mínimo y máximo producidos por el divisor de voltaje de la           figura 5-85(b).
+
+   ![image](https://user-images.githubusercontent.com/105255508/171811760-64621468-5f34-4a9f-a3ff-b99c0914d2d6.png)
+
+   Resolucion 
+   
+   RT= R1 + R2 + R3
+   
+   RT= 470 Ω + 1.0 kΩ + 680 Ω 
+   
+   RT= 2150 Ω
+   
+   Voltaje minimo 
+   
+   Vx=(VS/RT)x Rx → Vx= (12 V/2150 Ω) X 680 Ω → Vx= 3.80 V
+   
+   Volataje maximo
+   
+   R2 + R3 = 1.0 kΩ + 680 Ω = 1680 Ω
+   
+   Vx=(VS/RT)x Rx → Vx= (12 V/2150 Ω) X 1680 Ω → Vx= 9.38 V
     
-   42. En cada punto de la figura 5-87, determine el voltaje con respecto al lado negativo de    la batería
+   42. En cada punto de la figura 5-87, determine el voltaje con respecto al lado negativo de      la batería
+    
+   ![image](https://user-images.githubusercontent.com/105255508/171812527-9b781bec-d262-4d9b-85e1-58a00d3a5c0d.png)
+
+   Resolucion 
+   
+   RT= R1 + R2 + R3 + R4 + R5
+   
+   RT= 22 kΩ + 10 kΩ + 56 kΩ + 15 kΩ + 5.6 kΩ
+   
+   RT= 108.6 kΩ
+   
+   Punto A-F
+   
+   RAF= R1 + R2 + R3 + R4 + R5
+   
+   RAF= 22 kΩ + 10 kΩ + 56 kΩ + 15 kΩ + 5.6 kΩ
+   
+   RAF= 108.6 kΩ
+   
+   VAF= (VS/RT)x RAF → VAF= (100 V/108.6 kΩ) X 108.6 kΩ → VAF= 100 V
+   
+   Punto BF
+   
+   RBF= R2 + R3 + R4 + R5
+   
+   RBF= 10 kΩ + 56 kΩ + 15 kΩ + 5.6 kΩ
+   
+   RBF= 86.6 kΩ
+   
+   VBF= (VS/RT)x RBF → VAF= (100 V/108.6 kΩ) X 86.6 kΩ → VBF= 79.7 V
+   
+   Punto CF
+   
+   RCF= R3 + R4 + R5
+   
+   RCF= 56 kΩ + 15 kΩ + 5.6 kΩ
+   
+   RCF= 76.6 kΩ
+   
+   VCF= (VS/RT)x RCF → VCF= (100 V/108.6 kΩ) X 76.6 kΩ → VCF= 70.5 V
+   
+   Punto DF
+   
+   RDF= R4 + R5
+   
+   RDF= 15 kΩ + 5.6 kΩ
+   
+   RDF= 20.6 kΩ
+   
+   VDF= (VS/RT)x RDF → VDF= (100 V/108.6 kΩ) X 20.6 kΩ → VBF= 19 V
+   
+   Punto EF
+   
+   REF= R5
+   
+   REF= 5.6 kΩ
+   
+   REF= 5.6 kΩ
+   
+   VEF= (VS/RT)x REF → VEF= (100 V/108.6 kΩ) X 5.6 kΩ → VBF= 5.16 V
     
    44. Con la tabla de valores estándar de resistor dada en el apéndice A, diseñe un divisor      de voltaje para producir los siguientes voltajes aproximados con respecto a tierra            utilizando una fuente de 30 V; 8.18 V, 14.7 V
 
+   Resolucion 
+   
+   ![image](https://user-images.githubusercontent.com/105255508/171815430-60c67337-6ae9-4193-a5b0-cb90c077fe16.png)
 
-   46. Cada uno de cinco resistores dispuestos en serie manejan 50 mW. ¿Cuál es la potencia      total?
+   RT= 27 kΩ + 22 kΩ + 33 kΩ + 18 kΩ
+   
+   RT= 100 kΩ
+   
+   IT= 30 V/ 100kΩ 
+   
+   IT= 300 µA
+   
+   VA= (82 kΩ/ 100 kΩ)X (30 V) 
+   
+   VA= 24.6 V
+   
+   VB= (49 kΩ/ 100 kΩ)X (30 V) 
+   
+   VA= 14.7 V
+   
+   VC= (27 kΩ/ 100 kΩ)X (30 V) 
+   
+   VA= 8.1 V
+   
+   P1= I^2T X R1 → P1= (300 µA)^2 x 27 kΩ →  P1= 2.43 mW 
+   
+   P2= I^2T X R2 → P2= (300 µA)^2 x 22 kΩ →  P2= 1.98 mW
+   
+   P3= I^2T X R3 → P3= (300 µA)^2 x 33 kΩ →  P3= 2.97 mW
+   
+   P4= I^2T X R4 → P4= (300 µA)^2 x 18 kΩ →  P4= 1.62 mW
+   
+   R= La potencia nominal es de 1/8 W
+
+   46. Cada uno de cinco resistores dispuestos en serie manejan 50 mW. ¿Cuál es la potencia        total?
    
    Resolucion 
    
@@ -285,9 +456,11 @@ I = v/R = 9 V/151 kΩ = 0.059 mA
    
    PT= 0.25 W
    
-   48. Los siguientes resistores de 1 ⁄4 W están dispuestos en serie: 1.2 kΩ, 2.2 kΩ, 3.9 kΩ,    y 5.6 kΩ. ¿Cuál es el voltaje máximo que puede ser aplicado a través de estos resistores      sin exceder el valor nominal de potencia? ¿Cuál resistor se quemará primero al aplicar un      voltaje excesivo?
+   48. Los siguientes resistores de 1 ⁄4 W están dispuestos en serie: 1.2 kΩ, 2.2 kΩ, 3.9 kΩ,      y 5.6 kΩ. ¿Cuál es el voltaje máximo que puede ser aplicado a través de estos resistores        sin exceder el valor nominal de potencia? ¿Cuál resistor se quemará primero al aplicar un      voltaje excesivo?
 
    Resolucion 
+   
+   ![image](https://user-images.githubusercontent.com/105255508/171817067-576b8d2b-3396-47c1-9ab4-748a951a3401.png)
 
    V1= 6.68 mA x 1.2 kΩ →V1= 8.02 V
     
@@ -303,7 +476,7 @@ I = v/R = 9 V/151 kΩ = 0.059 mA
     
    Vmax= 86.2 V
     
-   50. Cierto circuito en serie se compone de un resistor de 1 ⁄8 W, un resistor de 1 ⁄4 W, y    un resistor de 1 ⁄2 W. La resistencia total es de 2400 Æ. Si cada uno de los resistores        opera en el circuito a su máxima disipación de potencia, determine lo siguiente:
+   50. Cierto circuito en serie se compone de un resistor de 1/8 W, un resistor de 1/4 W, y        un resistor de 1/2 W. La resistencia total es de 2400 Ω. Si cada uno de los resistores          opera en el circuito a su máxima disipación de potencia, determine lo siguiente:
 
    Resolucion 
 
@@ -331,26 +504,41 @@ I = v/R = 9 V/151 kΩ = 0.059 mA
 
    Resolucion
 
-   Primero mido el voltaje en el punto A con respecto a tierra y luego el voltaje en el punto    B con respecto a tierra. 
+   Se mide el voltaje en el punto A con respecto a tierra y luego el voltaje en el punto B con    respecto a tierra. 
    
-   Por tanto, R2 quedaria VR2= VB – VA
+   R2 = VR2= VB – VA
    
-   54. Se conecta una serie de cinco resistores a través de una batería de 12 V. Se miden 0      volts en todos los resistores excepto en R2. ¿Qué está mal en el circuito? ¿Qué voltaje se    medirá a través de R2
+   54. Se conecta una serie de cinco resistores a través de una batería de 12 V. Se miden 0        volts en todos los resistores excepto en R2. ¿Qué está mal en el circuito? ¿Qué voltaje se      medirá a través de R2
 
-   Lo que esta mal en el circuito es que no hay corriente a través de las resistencias que        tiene 0V , esto quiere decir que hay una abertura en el circuito, específicamente en R2.      Por lo tanto, R2 es la resistencia abierta, cuyo voltaje es 12 V; igual al voltaje de una      fuente de poder
+   Resolucion
+
+   En el circuito hay una abertura, por lo tanto, no hay corriente a través de las resistencias    que tienen 0V. Esto quiere decir que la resistencia R2 es la que está abierta.
    
-   56. ¿Cuál corriente mediría usted en la figura 5-91(b) si sólo R2 estuviera en                cortocircuito?
+   56. ¿Cuál corriente mediría usted en la figura 5-91(b) si sólo R2 estuviera en                  cortocircuito?
 
    ![image](https://user-images.githubusercontent.com/105255508/171767776-b6af13e1-4c8f-408c-  b5d5-5e4998fc1ed6.png)
-
-   Mediría la corriente a partir del voltaje e intensidad, pero sin tomar en cuenta a R2, dado    que R2 resulta cero por el cortocircuito
    
-   Por tanto, quedaría asi la medición I=V/R  → I= 10V/ 400 Ω →I= 25 Ma
+   Resolucion 
+
+   Medir la corriente a partir del voltaje e intensidad, sin tomar en cuenta a R2, ya que su      valor es de 0 por el cortocircuito.
+   
+   Por lo cual la medida seria: I=V/R  → I= 10V/ 400 Ω →I= 25 mA
     
    58. Se leen 15 kÆ entre las puntas 5 y 6 de la tarjeta de circuito impreso mostrada en la      figura 5-93. ¿Indi ca esto un problema? De ser así, identifíquelo
 
+   ![image](https://user-images.githubusercontent.com/105255508/171818070-cfacf875-763f-4ade-91a5-e8eb66a5f89c.png)
 
-   60. Los tres grupos de resistores en serie mostrados en la tarjeta de circuito impreso de la figura 5-93 es tán conectados en serie entre sí para formar un        solo circuito en serie conectando la punta 2 a la 4 y la 3 a la 5. Se conecta una fuente de voltaje entre las puntas 1 y 6 y se coloca un amperímetro en serie. Con forme aumenta el voltaje de la fuente, se observa el incremento correspondiente de la corriente. De im proviso, la corriente se reduce a cero y huele a humo. Todos los resistores son de 1 ⁄2 W. (a) ¿Qué sucedió? (b) Específicamente, ¿qué debe hacerse para arreglar el problema? (c) ¿Con qué voltaje ocurrió la falla?
+   Resolucion 
+   
+   Como se observa en la imagen se leen 15 kΩ entre las puntas 5 y 6, por lo cual existe un        cortocircuito en las resistencias R3 y R5 
+
+   60. Los tres grupos de resistores en serie mostrados en la tarjeta de circuito impreso de la    figura 5-93 es tán conectados en serie entre sí para formar un        solo circuito en serie    conectando la punta 2 a la 4 y la 3 a la 5. Se conecta una fuente de voltaje entre las          puntas 1 y 6 y se coloca un amperímetro en serie. Con forme aumenta el voltaje de la fuente,    se observa el incremento correspondiente de la corriente. De im proviso, la corriente se        reduce a cero y huele a humo. Todos los resistores son de 1 ⁄2 W. (a) ¿Qué sucedió? (b)        Específicamente, ¿qué debe hacerse para arreglar el problema? (c) ¿Con qué voltaje ocurrió      la falla?
+
+   Resolucion 
+   
+   ![image](https://user-images.githubusercontent.com/105255508/171818483-1fe331fe-99a7-451a-b177-b19021ececf5.png)
+
+   V= I x R → V= 7.07 mA x 10 kΩ → V=70.7 V
 
    UNIDAD 6
    
@@ -366,7 +554,7 @@ I = v/R = 9 V/151 kΩ = 0.059 mA
 	
    SECCIÓN 6–2 Voltaje en un circuito en paralelo
    
-   4. ¿Cuál es el voltaje entre los extremos y la corriente a través de cada resistor en paralelo si el voltaje total es de 12 V y la resistencia total de 550 Ω? Hay      cuatro resistores, todos de igual valor.
+   4. ¿Cuál es el voltaje entre los extremos y la corriente a través de cada resistor en          paralelo si el voltaje total es de 12 V y la resistencia total de 550 Ω? Hay      cuatro        resistores, todos de igual valor.
 	
    Resolución 
 	
@@ -378,7 +566,7 @@ I = v/R = 9 V/151 kΩ = 0.059 mA
 	
    La corrientes es la misma para cada resistencia 
 	
-   6. ¿Cuál es la resistencia total del circuito visto desde la fuente de voltaje para cada      posición del interruptor incluido en la figura 6-68?
+   6. ¿Cuál es la resistencia total del circuito visto desde la fuente de voltaje para cada        posición del interruptor incluido en la figura 6-68?
 
    ![image](https://user-images.githubusercontent.com/105255508/171784539-fa40c879-3500-4f96- a800-81cae2cd1e28.png)
 
@@ -402,7 +590,7 @@ I = v/R = 9 V/151 kΩ = 0.059 mA
 
    RT= R1 x R2/R1 + R2 → RT=1.0 kΩ x 1.8 kΩ /1.0 kΩ + 1.8 kΩ  → RT= 0.64 kΩ
 	
-   8. ¿Cuál es la corriente total suministrada por la fuente de voltaje que muestra la figura    6-68 para cada posición del interruptor
+   8. ¿Cuál es la corriente total suministrada por la fuente de voltaje que muestra la figura      6-68 para cada posición del interruptor
    
    ![image](https://user-images.githubusercontent.com/105255508/171785126-a4e30608-8e8d-40d8-9432-6a9039f9e367.png)
 
@@ -452,7 +640,7 @@ I = v/R = 9 V/151 kΩ = 0.059 mA
 
    IR5 = 175 mA
    
-   12. En cierta habitación, el circuito eléctrico tiene una lámpara de cielo que consume 1.25    A y cuatro tomas de corriente de pared. Dos lámparas de mesa que consumen cada una 0.833 A    están conectadas a dos tomas de corriente, y un calentador eléctrico que consume 10 A está    conectado a la tercera toma de corriente. Cuando todos estos elementos están en uso,          ¿cuánta corriente hay en la línea principal que abastece a la habitación? Si la línea          principal está protegida por un cortocircuito de 15 A, ¿cuánta corriente puede ser            absorbida de la cuarta toma de corriente? Trace un diagrama esquemático de esta instalación    eléctrica.
+   12. En cierta habitación, el circuito eléctrico tiene una lámpara de cielo que consume 1.25    A y cuatro tomas de corriente de pared. Dos lámparas de mesa que consumen cada una 0.833 A      están conectadas a dos tomas de corriente, y un calentador eléctrico que consume 10 A está      conectado a la tercera toma de corriente. Cuando todos estos elementos están en uso,            ¿cuánta corriente hay en la línea principal que abastece a la habitación? Si la línea          principal está protegida por un cortocircuito de 15 A, ¿cuánta corriente puede ser              absorbida de la cuarta toma de corriente? Trace un diagrama esquemático de esta instalación    eléctrica.
 
    ![image](https://user-images.githubusercontent.com/105255508/171785761-f37bcbf6-0b11-49b4-b682-eb4721b48d72.png)
 
@@ -476,7 +664,7 @@ I = v/R = 9 V/151 kΩ = 0.059 mA
 
    SECCIÓN 6–4 Resistencia total en paralelo
    
-   14. Los siguientes resistores están conectados en paralelo: 1.0 MΩ, 2.2 MΩ, 5.6 MΩ, 12 MΩ,    y 22 MΩ. Determine la resistencia total.
+   14. Los siguientes resistores están conectados en paralelo: 1.0 MΩ, 2.2 MΩ, 5.6 MΩ, 12 MΩ,      y 22 MΩ. Determine la resistencia total.
 
    Resolución 
 
@@ -534,7 +722,7 @@ I = v/R = 9 V/151 kΩ = 0.059 mA
    
    RT= 1/GT → RT= 1/ 1.12 mS → RT= 0.89x10^3 → RT= 0.89 kΩ  
 
-   18. Tres grupos, uno de cinco resistores de 470 Ω, otro de diez resistores de 100 Ω, y uno    más de dos resistores de 100Ω están conectados en paralelo. ¿Cuál es la resistencia total      para cada uno de los tres agrupamientos?
+   18. Tres grupos, uno de cinco resistores de 470 Ω, otro de diez resistores de 100 Ω, y uno      más de dos resistores de 100Ω están conectados en paralelo. ¿Cuál es la resistencia total      para cada uno de los tres agrupamientos?
 
    Resolución 
    
@@ -674,7 +862,7 @@ I = v/R = 9 V/151 kΩ = 0.059 mA
    
    I = 1 A – 2.5 A + 2 A → I= 0.5 A
    
-   32. ¿Cuánta corriente deberán indicar los medidores de la figura 6-80 a través de cada        rama?
+   32. ¿Cuánta corriente deberán indicar los medidores de la figura 6-80 a través de cada          rama?
 
    ![image](https://user-images.githubusercontent.com/105255508/171787019-74e9a1cc-4ecd-4667-a900-b4aac1e798dc.png)
 
@@ -705,7 +893,7 @@ I = v/R = 9 V/151 kΩ = 0.059 mA
   RT= 0.47 Ω
   
   36. (a) Determine el valor requerido del resistor en derivación RSH1 en el amperímetro de la   figura 6-49 si la resistencia del movimiento de medidor es de 50 Ω.
-  (b) Encuentre el valor requerido para RSH2 en el circuito medidor de la figura 6-50 (R_M=50   Ω).
+  (b) Encuentre el valor requerido para RSH2 en el circuito medidor de la figura 6-50 (R_M=50      Ω).
 
   ![image](https://user-images.githubusercontent.com/105255508/171787205-83553ccc-3c30-4e39-9856-bb95f829b05b.png)
 
@@ -723,7 +911,7 @@ I = v/R = 9 V/151 kΩ = 0.059 mA
   
   SECCIÓN 6–8 Potencia en circuitos en paralelo
   
-  38. Cada resistor de un grupo de cinco dispuesto en paralelo maneja 250 mW. ¿Cuál es la       potencia total?
+  38. Cada resistor de un grupo de cinco dispuesto en paralelo maneja 250 mW. ¿Cuál es la         potencia total?
   
   Resolución 
   
@@ -731,7 +919,7 @@ I = v/R = 9 V/151 kΩ = 0.059 mA
   
   PT= 1.25 W
   
-  40. Seis focos están conectados en paralelo entre los extremos de una fuente de 110 V. Cada   foco es de 75 W. ¿Cuál es la corriente a través de cada foco, y cuál es la corriente total?
+  40. Seis focos están conectados en paralelo entre los extremos de una fuente de 110 V. Cada     foco es de 75 W. ¿Cuál es la corriente a través de cada foco, y cuál es la corriente total?
   
   Resolución 
   
@@ -749,7 +937,7 @@ I = v/R = 9 V/151 kΩ = 0.059 mA
   
   IT= 4.09 A
   
-  42. Cierto circuito en paralelo está compuesto por resistores de sólo 1 ⁄2 W. La resistencia   total es de 1.0 kΩ , y la corriente total es de 50 mA. Si cada resistor opera a la mitad de   su nivel de potencia máxima, determine lo siguiente:
+  42. Cierto circuito en paralelo está compuesto por resistores de sólo 1 ⁄2 W. La resistencia   total es de 1.0 kΩ , y la corriente total es de 50 mA. Si cada resistor opera a la mitad de     su nivel de potencia máxima, determine lo siguiente:
   
   Resolución 
   
@@ -787,7 +975,7 @@ I = v/R = 9 V/151 kΩ = 0.059 mA
   
   SECCIÓN 6–10 Localización de fallas
   
-  44. En la figura 6-85, se indican las mediciones de corriente y voltaje. ¿Se ha abierto un       resistor, y, de ser así, cuál?
+  44. En la figura 6-85, se indican las mediciones de corriente y voltaje. ¿Se ha abierto un     resistor, y, de ser así, cuál?
 
   ![image](https://user-images.githubusercontent.com/105255508/171788904-e61072e2-b64e-4192-ada8-45fd7c427468.png)
 
@@ -823,7 +1011,7 @@ I = v/R = 9 V/151 kΩ = 0.059 mA
   
   La resistencia R1 de valor 4.7kΩ es la que está abierta
   
-  48. Para la tarjeta de circuito mostrada en la figura 6-88, determine la resistencia entre las   siguientes puntas si hay un corto entre las puntas 2 y 4:
+  48. Para la tarjeta de circuito mostrada en la figura 6-88, determine la resistencia entre     las siguientes puntas si hay un corto entre las puntas 2 y 4:
 
   ![image](https://user-images.githubusercontent.com/105255508/171789348-5a567fc8-8c62-4963-8063-d692703f5b2e.png)
 
@@ -843,19 +1031,19 @@ I = v/R = 9 V/151 kΩ = 0.059 mA
 
 5. CONCLUCIONES 
 
-Por tanto, se puede decir que un circuito en serie proporciona solo una trayectoria para el paso de la corriente entre dos puntos, sin olvidar que en un circuito en serie la corriente es la misma a través de todos los puntos, y la resistencia total de un circuito en serie es igual a la suma de todas las resistencias, cada vez que un resistor se agrega a la serie, la resistencia total aumenta. 
+   Por tanto, se puede decir que un circuito en serie proporciona solo una trayectoria para el    paso de la corriente entre dos puntos, sin olvidar que en un circuito en serie la corriente    es la misma a través de todos los puntos, y la resistencia total de un circuito en serie es    igual a la suma de todas las resistencias, cada vez que un resistor se agrega a la serie, la    resistencia total aumenta. 
 
-En relación con lo antes expuesto, es importante mencionar que la ley del voltaje de Kirchhoff es una ley fundamental de circuitos, en donde la suma de las caídas de voltaje es igual al voltaje de fuente total, la suma algebraica de todos los voltajes localizados en una trayectoria cerrada única es cero
+   En relación con lo antes expuesto, es importante mencionar que la ley del voltaje de            Kirchhoff es una ley fundamental de circuitos, en donde la suma de las caídas de voltaje es    igual al voltaje de fuente total, la suma algebraica de todos los voltajes localizados en      una trayectoria cerrada única es cero.
 
-En virtud de lo estudiado, un circuito en serie actúa como divisor de voltaje, y el voltaje siempre se mide con respecto a otro punto, en mayor parte de electrónica, se utiliza como tierra de referencia y esta tiene una potencia de cero voltios, con respecto a todos los demás puntos del circuito relacionados, la falla más común que se presenta en un circuito en serie es una abertura.
+   En virtud de lo estudiado, un circuito en serie actúa como divisor de voltaje, y el voltaje    siempre se mide con respecto a otro punto, en mayor parte de electrónica, se utiliza como      tierra de referencia y esta tiene una potencia de cero voltios, con respecto a todos los        demás puntos del circuito relacionados, la falla más común que se presenta en un circuito en    serie es una abertura.
 
-Para resumir, cuando dos o mas resistores se conectan individualmente entre dos puntos distintos están en paralelo entre sí, es importante decir que rama es la trayectoria para la corriente y en circuito en paralelo es uno que tiene mas de una rama, el voltaje a través de cualquier rama de un circuito dispuesto en paralelo es igual al voltaje a través de cada una de las demás ramas en paralelo.
+   Para resumir, cuando dos o mas resistores se conectan individualmente entre dos puntos          distintos están en paralelo entre sí, es importante decir que rama es la trayectoria para la    corriente y en circuito en paralelo es uno que tiene mas de una rama, el voltaje a través de    cualquier rama de un circuito dispuesto en paralelo es igual al voltaje a través de cada una    de las demás ramas en paralelo.
 
-Para sintetizar, la ley de voltaje de Kirchhoff es aplicable a corrientes que circulan por múltiples trayectorias y es la suma de las corrientes que entran en un nodo es igual a la suma de las corrientes que salen de dicho nodo, es importante decir que la suma algebraica de todas las corrientes que entran y salen de un nodo es igual a cero.
+   Para sintetizar, la ley de voltaje de Kirchhoff es aplicable a corrientes que circulan por      múltiples trayectorias y es la suma de las corrientes que entran en un nodo es igual a la      suma de las corrientes que salen de dicho nodo, es importante decir que la suma algebraica      de todas las corrientes que entran y salen de un nodo es igual a cero.
+   
+   En conclusión, la resistencia total de dos resistores en paralelo es igual al producto de      los dos resistores dividido entre la suma de los dos resistores, y la corriente total          producida por fuentes de corriente en paralelo es igual a la suma algebraica de las fuentes    de corriente individuales y un circuito en paralelo actúa como divisor de corriente.
 
-En conclusión, la resistencia total de dos resistores en paralelo es igual al producto de los dos resistores dividido entre la suma de los dos resistores, y la corriente total producida por fuentes de corriente en paralelo es igual a la suma algebraica de las fuentes de corriente individuales y un circuito en paralelo actúa como divisor de corriente.
-
-A modo de cierre, es importante decir que la potencia total presente en un circuito en paralelo se encuentra sumando las potencias de todos los resistores individuales, tal como en los circuitos en serie, cuando una rama en paralelo se abre, la resistencia total se incrementa, la corriente total disminuye, con una supuesta rama abierta, se puede medir la corriente total para localizar la abertura.
+   A modo de cierre, es importante decir que la potencia total presente en un circuito en          paralelo se encuentra sumando las potencias de todos los resistores individuales, tal como      en los circuitos en serie, cuando una rama en paralelo se abre, la resistencia total se        incrementa, la corriente total disminuye, con una supuesta rama abierta, se puede medir la      corriente total para localizar la abertura.
 
 6. BIBLIOGRAFIAS 
 
