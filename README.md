@@ -4,15 +4,36 @@
 
     Objetivo General
     
+    •	Analizar y comprender los conceptos expuestos en el libro de Floyd “Principios de Circuitos Eléctricos” que se encuentran en el capítulo 5 y 6, dado que es 	importante conocer los conceptos de circuitos en series y la utilización de la ley de Ohm en circuitos paralelos.
+    
     Objetivo Especificos 
+    
+    •	Describir las características más importantes de los resistores en serie e identificar la corriente a través de un circuito en serie para así conocer la            resistencia total en serie
+    
+    •	Conocer los conceptos sobre un circuito resistivo paralelo para así poder identificarlo, también conocer la importancia de la ley de voltaje de Kirchhoff 
+    
+    •	Aplicar los conocimientos adquiridos en el capítulo 5 y 26 del libro Principios de circuitos Eléctricos, mediando la resolución de ejercicios poniendo en            practica lo aprendido sobre la ley de Ohm y la potencia en resistores. 
+
     
 2. MARCO TEORICO 
 
+   ![image](https://user-images.githubusercontent.com/105255508/171790630-7a714951-228f-4d15-b7c8-fdcc42b81e0f.png)
+  
+   ![image](https://user-images.githubusercontent.com/105255508/171790646-0198339f-d2f2-45d8-8adb-84f01cd02180.png)
 
+   ![image](https://user-images.githubusercontent.com/105255508/171790666-926817fc-2648-4ced-b690-6085504394e2.png)
 
+   ![image](https://user-images.githubusercontent.com/105255508/171790678-7870dad9-6ea1-47ed-8fb4-048a24a4ab9a.png)
 
+   ![image](https://user-images.githubusercontent.com/105255508/171790716-6fd0efd2-f3bf-4311-a4e1-62bde10ae0f9.png)
+    
+   ![image](https://user-images.githubusercontent.com/105255508/171790734-7fdc111a-c02f-4b7f-a265-d21a3fbd8afc.png)
 
+    ![image](https://user-images.githubusercontent.com/105255508/171790773-9c213d8f-ce67-4c2e-8396-57efc16d2aad.png)
+     
+   ![image](https://user-images.githubusercontent.com/105255508/171790809-cdc4a24f-8b5b-4bf0-b760-6ddf3fafc577.png)
 
+   ![image](https://user-images.githubusercontent.com/105255508/171790822-af5db9bc-8bc8-480f-bd6f-4646252baccf.png)
 
 3. EXPLICACION Y RESOLUCION DE EJERICIOS O PROBLEMAS
 
@@ -834,47 +855,25 @@ I = v/R = 9 V/151 kΩ = 0.059 mA
   
   (d) 1 y 4
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 4. VIDEO
 
 
 
 5. CONCLUCIONES 
 
+Por tanto, se puede decir que un circuito en serie proporciona solo una trayectoria para el paso de la corriente entre dos puntos, sin olvidar que en un circuito en serie la corriente es la misma a través de todos los puntos, y la resistencia total de un circuito en serie es igual a la suma de todas las resistencias, cada vez que un resistor se agrega a la serie, la resistencia total aumenta. 
 
+En relación con lo antes expuesto, es importante mencionar que la ley del voltaje de Kirchhoff es una ley fundamental de circuitos, en donde la suma de las caídas de voltaje es igual al voltaje de fuente total, la suma algebraica de todos los voltajes localizados en una trayectoria cerrada única es cero
+
+En virtud de lo estudiado, un circuito en serie actúa como divisor de voltaje, y el voltaje siempre se mide con respecto a otro punto, en mayor parte de electrónica, se utiliza como tierra de referencia y esta tiene una potencia de cero voltios, con respecto a todos los demás puntos del circuito relacionados, la falla más común que se presenta en un circuito en serie es una abertura.
+
+Para resumir, cuando dos o mas resistores se conectan individualmente entre dos puntos distintos están en paralelo entre sí, es importante decir que rama es la trayectoria para la corriente y en circuito en paralelo es uno que tiene mas de una rama, el voltaje a través de cualquier rama de un circuito dispuesto en paralelo es igual al voltaje a través de cada una de las demás ramas en paralelo.
+
+Para sintetizar, la ley de voltaje de Kirchhoff es aplicable a corrientes que circulan por múltiples trayectorias y es la suma de las corrientes que entran en un nodo es igual a la suma de las corrientes que salen de dicho nodo, es importante decir que la suma algebraica de todas las corrientes que entran y salen de un nodo es igual a cero.
+
+En conclusión, la resistencia total de dos resistores en paralelo es igual al producto de los dos resistores dividido entre la suma de los dos resistores, y la corriente total producida por fuentes de corriente en paralelo es igual a la suma algebraica de las fuentes de corriente individuales y un circuito en paralelo actúa como divisor de corriente.
+
+A modo de cierre, es importante decir que la potencia total presente en un circuito en paralelo se encuentra sumando las potencias de todos los resistores individuales, tal como en los circuitos en serie, cuando una rama en paralelo se abre, la resistencia total se incrementa, la corriente total disminuye, con una supuesta rama abierta, se puede medir la corriente total para localizar la abertura.
 
 6. BIBLIOGRAFIAS 
 
