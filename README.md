@@ -387,38 +387,20 @@ I = v/R = 9 V/151 kΩ = 0.059 mA
    Posición A
    
    ![image](https://user-images.githubusercontent.com/105255508/171784766-dafe5ddd-77d4-490d-b3b3-66f3e97f26f8.png)
-
-   GR1= 1/R1 → GR1=1/1.0 kΩ → GR1= 1x10^-3 → GR1= 1 mS
    
-   GR4= 1/R4 → GR4=1/2.7 kΩ → GR4= 0.37x10^-3 → GR4= 0.37 mS
-   
-   GT= GR1 + GR4 → GT= 1 mS + 0.37 mS → GT= 1.37 mS
-   
-   RT= 1/GT → RT=1/1.37 mS → RT= 0.43x10^3 → RT= 0.73 kΩ
+   RT= R1 x R4/R1 + R4 → RT=1.0 kΩ x 2.7 kΩ /1.0 kΩ + 2.7 kΩ  → RT= 0.73 kΩ
 
    Posición  B
    
    ![image](https://user-images.githubusercontent.com/105255508/171784843-1254ba3d-312a-4959-abd1-085e960e0b34.png)
 
-   GR1= 1/R1 → GR1=1/1.0 kΩ → GR1= 1x10^-3 → GR1= 1 mS
-   
-   GR3= 1/R3 → GR3=1/2.2 kΩ → GR3= 0.45x10^-3 → GR3= 0.45 mS
-   
-   GT= GR1 + GR3 → GT= 1 mS + 0.45 mS → GT= 1.45 mS
-   
-   RT= 1/GT → RT=1/1.45 mS → RT= 0.70x10^3 → RT= 0.70 kΩ
+   RT= R1 x R3/R1 + R3 → RT=1.0 kΩ x 2.2 kΩ /1.0 kΩ + 2.2 kΩ  → RT= 0.69 kΩ
 
    Posición  C
 
    ![image](https://user-images.githubusercontent.com/105255508/171784922-90b8da72-04ba-4057-926d-728e1d86dc59.png)
 
-   GR1= 1/R1 → GR1=1/1.0 kΩ → GR1= 1x10^-3 → GR1= 1 mS
-	
-   GR2= 1/R2 → GR2=1/1.8 kΩ → GR2= 0.5x10^-3 → GR3= 0.5 mS
-
-   GT= GR1 + GR2 → GT= 1 mS + 0.5 mS → GT= 1.5 mS
-
-   RT= 1/GT → RT=1/1.5 mS → RT= 0.66x10^3 → RT= 0.66 kΩ
+   RT= R1 x R2/R1 + R2 → RT=1.0 kΩ x 1.8 kΩ /1.0 kΩ + 1.8 kΩ  → RT= 0.64 kΩ
 	
    8. ¿Cuál es la corriente total suministrada por la fuente de voltaje que muestra la figura    6-68 para cada posición del interruptor
    
