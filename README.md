@@ -121,7 +121,7 @@
 
         RT = 17.84 MΩ
 
-   14. Se conectan en serie seis resistores de 56 Ω, ocho de 100 Ω, y dos de 22 Ω. ¿Cuál es la      resistencia total?
+   14. Se conectan en serie seis resistores de 56 Ω, ocho de 100 Ω, y dos de 22 Ω. ¿Cuál es      la resistencia total?
 
    Resolución 
    
@@ -162,7 +162,53 @@
    
    Resolución
  
+   Posicion 1 
    
+   ![image](https://user-images.githubusercontent.com/105255508/171835247-8a59fc4d-cc9f-495e-af2d-83324e081a7e.png)
+   
+   RT= R1 + R2 + R5 
+   
+   RT= 510 Ω + 820 Ω + 680 Ω
+   
+   RT= 2010 Ω 
+   
+   RT= 2.010 kΩ
+   
+   Posicion 2 
+   
+   ![image](https://user-images.githubusercontent.com/105255508/171835319-b52f7943-a7f2-4f95-b9ca-f57518768f0b.png)
+
+   RT= R1 + R3 + R4 + R5 
+   
+   RT= 510 Ω + 820 Ω + 750 Ω + 680 Ω
+   
+   RT= 2760 Ω 
+   
+   RT= 2.760 kΩ
+   
+   Posicion 3 
+   
+   ![image](https://user-images.githubusercontent.com/105255508/171835593-e489cf33-acfc-4fca-bd6b-f02d8a8b4800.png)
+
+   RT= R1 + R2 + R3 + R5 
+   
+   RT= 510 Ω + 910 Ω + 820 Ω + 680 Ω
+   
+   RT= 2920 Ω 
+   
+   RT= 2.920 kΩ
+   
+   Posicion 4
+   
+   ![image](https://user-images.githubusercontent.com/105255508/171835754-2525e5c6-c545-431a-8410-05cd03bbcd01.png)
+   
+   RT= R1 + R2 + R3 + + R4 + R5 
+   
+   RT= 510 Ω + 910 Ω + 820 Ω + 750 Ω + 680 Ω
+   
+   RT= 3670 Ω 
+   
+   RT= 3.670 kΩ
 
    SECCIÓN 5-4 Aplicación de la Ley de Ohm
    
@@ -228,15 +274,43 @@
   
  ![image](https://user-images.githubusercontent.com/105255508/171765645-34a87f2a-2424-41b6-8e0c-50512e9e3338.png)
 
+   Resolucion 
+   
+   Punto A
+   
+   ![image](https://user-images.githubusercontent.com/105255508/171843599-7addc6d6-e2cd-48bb-a48e-e07b6d6a93d0.png)
 
-1. Sacar la resistencia equivalente de todo el circuito.
+   Punto B
+   
+   ![image](https://user-images.githubusercontent.com/105255508/171843479-8510e8d7-7eb2-4d65-8f94-a54a1d296ae5.png)
 
-Req = 1.0 kΩ + 33 kΩ + 68 kΩ + 27 kΩ + 22 kΩ = 151 kΩ
+   Punto C
+   
+   ![image](https://user-images.githubusercontent.com/105255508/171843397-55d7e66e-8b68-4887-9b21-70c9e4703ef6.png)
+   
+   Punto A-B
+   
+   ![image](https://user-images.githubusercontent.com/105255508/171843755-3b0a4916-8a80-4e53-93fa-7218c0edaa7c.png)
+   
+   Punto A-C
+   
+   ![image](https://user-images.githubusercontent.com/105255508/171843847-235e6b47-1a81-4841-a9fb-dc3e81e646f7.png)
 
-2. Aplicando la Ley de Ohm encontramos la corriente.
+   Punto C-B
+   
+   ![image](https://user-images.githubusercontent.com/105255508/171845067-ed4535d2-a4ef-4e47-bfe2-45a0474225db.png)
 
-I = v/R = 9 V/151 kΩ = 0.059 mA
+   Punto C-A
+   
+   ![image](https://user-images.githubusercontent.com/105255508/171845131-654d0fa1-8e09-4d4e-b430-0c43afd62f2e.png)
+
+   Punto B-A
+   
+   ![image](https://user-images.githubusercontent.com/105255508/171845208-179e03bc-f363-4b75-8e47-6ba77fd62d5e.png)
+
   
+
+   
    SECCIÓN 5-5 Fuentes de voltaje en serie
    
    28. El término oposición en serie significa que las fuentes están en serie con polaridades      opuestas. Si una batería de 12 V y otra de 3 V están en oposición en serie, ¿cuál es el          voltaje total?
@@ -1027,7 +1101,7 @@ I = v/R = 9 V/151 kΩ = 0.059 mA
 
 4. VIDEO
 
-
+  https://youtu.be/-ZFZreG7qlo 
 
 5. CONCLUCIONES 
 
