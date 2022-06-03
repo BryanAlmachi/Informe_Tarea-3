@@ -77,13 +77,13 @@
   
    I = V/RT → I= 12 V/120 Ω → I= 0.1 A→ I= 100mA
 
-   8. Muestre cómo conectar una fuente de voltaje y un amperímetro a la tarjeta de circuito        impreso ilustrada en la figura 5-68 para medir la corriente en R1. ¿Qué otras corrientes        de resistor se miden con esta configuración?
+   8. Muestre cómo conectar una fuente de voltaje y un amperímetro a la tarjeta de circuito impreso ilustrada en la figura 5-68 para medir la corriente en R1.   ¿Qué    otras corrientes        de resistor se miden con esta configuración?
 
    ![image](https://user-images.githubusercontent.com/105255508/171806021-8ae093e7-18c0-4ed1-9db5-446d27eed501.png)
 
    Resolución
    
-   ![image](https://user-images.githubusercontent.com/105255508/171806081-4bfd614a-543f-4596-ab7b-ac2ee6b579d3.png)
+   ![image](https://user-images.githubusercontent.com/105255508/171834735-fded9400-fe98-4146-a745-0eda5957d996.png)
 
    SECCIÓN 5-3 Resistencia total en serie
    
