@@ -784,7 +784,9 @@ I = v/R = 9 V/151 kΩ = 0.059 mA
   
   SECCIÓN 6–10 Localización de fallas
   
-  44. En la figura 6-85, se indican las mediciones de corriente y voltaje. ¿Se ha abierto un     resistor, y, de ser así, cuál?
+  44. En la figura 6-85, se indican las mediciones de corriente y voltaje. ¿Se ha abierto un       resistor, y, de ser así, cuál?
+
+  ![image](https://user-images.githubusercontent.com/105255508/171788904-e61072e2-b64e-4192-ada8-45fd7c427468.png)
 
   Resolución 
 
@@ -796,26 +798,41 @@ I = v/R = 9 V/151 kΩ = 0.059 mA
   
   RT= 210.3mA
   
-La corriente medida es menos de la que debería ser 
-Lo que se concluye que una de las resistencias está abierta 
+  R= V/I 
+  
+  R=10 V/ 10.1 mA 
+  
+  R= 990 Ω ≈ 1 kΩ
+  
+  El resistor que esta abierto es el R3 
+  
+  46. ¿Qué está mal con el circuito de la figura 6-86 si el medidor lee 5.55 mA?
 
-R= V/I 
-R=10 V/ 10.1 mA 
-R= 990 Ω ≈ 1 kΩ
-Se verifica que la resistencia que la resistencia abierta es R3 de valor 1 kΩ
-46. ¿Qué está mal con el circuito de la figura 6-86 si el medidor lee 5.55 mA?
+  ![image](https://user-images.githubusercontent.com/105255508/171789220-98440705-76ae-486c-943a-c6f5baa8dd68.png)
 
-Resolución 
-I= 25 V/ 4.7 kΩ → I= 5.32 mA
-I= 25 V/ 10 kΩ → I= 2.5 mA
-I= 25 V/ 8.2 kΩ → I= 3.05 mA
-La resistencia R1 de valor 4.7kΩ es la que está abierta
-48. Para la tarjeta de circuito mostrada en la figura 6-88, determine la resistencia entre las siguientes puntas si hay un corto entre las puntas 2 y 4:
+  Resolución 
+  
+  I= 25 V/ 4.7 kΩ → I= 5.32 mA
+  
+  I= 25 V/ 10 kΩ → I= 2.5 mA
+  
+  I= 25 V/ 8.2 kΩ → I= 3.05 mA
+  
+  La resistencia R1 de valor 4.7kΩ es la que está abierta
+  
+  48. Para la tarjeta de circuito mostrada en la figura 6-88, determine la resistencia entre las   siguientes puntas si hay un corto entre las puntas 2 y 4:
 
-(a) 1 y 2 
-(b) 2 y 3
-(c) 3 y 4 
-(d) 1 y 4
+  ![image](https://user-images.githubusercontent.com/105255508/171789348-5a567fc8-8c62-4963-8063-d692703f5b2e.png)
+
+  Resolución 
+  
+  (a) 1 y 2 
+
+  (b) 2 y 3
+  
+  (c) 3 y 4 
+  
+  (d) 1 y 4
 
 
 
